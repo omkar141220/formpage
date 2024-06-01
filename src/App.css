@@ -1,0 +1,57 @@
+.app{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(rgba(255,255,255,0.7),
+  rgba(255,255,255,0.3)),
+  url("https://images.pexels.com/photos/235990/pexels-photo-235990.jpeg?auto=compress&cs=tinysrgb&w=600");
+  background-size: cover;
+  background-position: center;
+}
+form{
+  background-color: white;
+  padding: 0px 90px;
+  border-radius: 12px;
+}
+h1{
+  color: violet;
+  text-align: center;
+}
+button {
+  margin: 12px;
+  height: 50px;
+  width: 120px;
+  border-radius: 10px;
+  background: #333;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -5px -5px 15px #444, 5px 5px 15px #222, inset 5px 5px 10px #444,
+    inset -5px -5px 10px #222;
+  font-family: "Damion", cursive;
+  cursor: pointer;
+  border: none;
+  font-size: 16px;
+  color: rgb(161, 161, 161);
+  transition: 500ms;
+}
+
+button:hover {
+  box-shadow: -5px -5px 15px #444, 5px 5px 15px #222, inset 5px 5px 10px #222,
+    inset -5px -5px 10px #444;
+  color: #d6d6d6;
+  transition: 500ms;
+}
+.formInput{
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+}
+input{
+  padding: 15px;
+  margin: 10px 0px;
+  border-radius: 5px;
+  border: 2px solid gray;
+}
+
